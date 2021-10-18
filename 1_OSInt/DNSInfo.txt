@@ -1,0 +1,23 @@
+
+# Email information
+
+## Define email server/services
+
+    ~$ dig versivo.it MX
+    [...]
+    ;; ANSWER SECTION:
+    versivo.it.		3600	IN	MX	10 mail.protonmail.ch.
+    versivo.it.		3600	IN	MX	20 mailsec.protonmail.ch.
+
+## Define SPF record
+
+    dig versivo.it TXT
+    [...]
+    ;; ANSWER SECTION:
+    versivo.it.		3600	IN	TXT	"v=spf1 include:_spf.protonmail.ch mx ~all"
+
+## Easy to use
+
+    https://mxtoolbox.com/
+    https://intodns.com
+    
