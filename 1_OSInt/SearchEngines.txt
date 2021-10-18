@@ -1,0 +1,25 @@
+
+# OSInt Search Engine resource
+
+## Search Engines for indexed information
+
+    https://google.com          Google Dorks
+    https://duckduckgo.com      Google Dorks like
+    https://www.entireweb.com
+    https://gigablast.com/
+    https://yandex.com/
+    https://infospace.com/
+
+
+## Web Archive / Cache
+
+    https://archive.org/
+    https://archive.ph/
+
+
+## Blog search
+
+    https://www.bloggingfusion.com
+    http://www.blogsearchengine.org
+    https://www.blog-search.com
+
