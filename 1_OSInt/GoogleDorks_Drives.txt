@@ -1,0 +1,7 @@
+
+## search drive content
+
+inurl:"https://drive.google.com" site:google.com
+"onedrive.live.com/?cid"
+password inurl:"https://pastebin.com/"
+ipcam inurl:"https://pastebin.com/"
