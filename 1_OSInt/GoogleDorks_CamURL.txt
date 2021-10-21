@@ -1,0 +1,928 @@
+	
+Models          
+Example     RTSP        URL     Audio       
+Axis        Unknown	    http://IPADDRESS/axis-cgi/mjpg/video.cgi	Yes
+Axis        Unknown	    rtsp://IPADDRESS/mpeg4/media.amp	Possible
+Axis        Unknown	    rtsp://IPADDRESS/axis-media/media.amp	Possible
+Axis        1	        rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        1_Generic	http://IPADDRESS/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]	Yes
+Axis        1_Generic	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        1_Generic	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        1_Generic	http://IPADDRESS/nphMotionJpeg?Resolution=640×480&Quality=Standard	No
+Axis        1_Generic	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        1_Generic	rtsp://IPADDRESS/axis-media/media.amp?videocodec=h264&resolution=640×480	Possible
+Axis        1_GENERIC	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        1_GENERIC	http://IPADDRESS/jpg/image.jpg	No
+Axis        1_GENERIC	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        1_GENERIC	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        1034	    rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        1054	    http://IPADDRESS/mjpg/video.mjpg	No
+Axis        1056	    http://IPADDRESS/mjpg/video.mjpg	No
+Axis        1114    	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        1144    	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        1144	    rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        1311	    http://IPADDRESS/jpg/image.jpg	No
+Axis        1346    	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        1347    	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        154     	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        1755	    http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        200+	    http://IPADDRESS/hugesize.jpg?camera=[CHANNEL]	No
+Axis        200+	    http://IPADDRESS/fullsize.jpg?camera=1	No
+Axis        203	        http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        205         http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        205         http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        205         http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        205         http://IPADDRESS/jpg/image.jpg	No
+Axis        205         http://IPADDRESS/axis-cgi/jpg/image.cgi?camera=1&resolution=320×240&compression=25	No
+Axis        205         http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        205         http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        205         http://IPADDRESS/mjpg/video.mjpg	No
+Axis        205         http://IPADDRESS/mjpg/video.mjpg	No
+Axis        205         http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        205     	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        205	        rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        206         http://http://IPADDRESS/axis-cgi/jpg/image.cgi?camera=1&resolution=320×240&compression=25	No
+Axis        206         http://http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        206         http://http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        206         http://http://IPADDRESS/jpg/image.jpg	No
+Axis        206         http://http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        206         http://http://IPADDRESS/mjpg/video.mjpg	No
+Axis        206         http://http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        206         http://http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        206         http://http://IPADDRESS/mjpg/video.mjpg	No
+Axis        206         http://http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        206         http://http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        206         http://rtsp://IPADDRESS:554/mpeg4	Yes
+Axis        206         http://rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        206         http://rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        206 rev2	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        206 rev2	http://IPADDRESS:554/mjpg/video.mjpg	No
+Axis        206m	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        206M	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        206M	http://IPADDRESS/jpg/image.jpg	No
+Axis        206M	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        206M	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        206M	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        206M	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        206M	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        206M	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        206W	http://IPADDRESS/jpg/image.jpg	No
+Axis        206W	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        206W	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        206W	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        207	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        207	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        207	http://IPADDRESS/jpg/image.jpg	No
+Axis        207	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        207	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        207	http://IPADDRESS:554/mjpg/video.mjpg	No
+Axis        207	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        207	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        207	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        207	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        207	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        207-202	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        207-204	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        207-207	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        207mine	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        207MW	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        207MW	http://IPADDRESS/jpg/image.jpg	No
+Axis        207MW	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        207MW	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        207MW	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        207MW	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        207MW	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        207MW	http://IPADDRESS:554/mjpg/video.mjpg	No
+Axis        207MW	http://IPADDRESS:554/mjpg/video.mjpg	No
+Axis        207MW	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        207MW	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        207w	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        207W	http://IPADDRESS:554/axis-cgi/jpg/image.cgi?camera=1&resolution=320×240&compression=25	No
+Axis        207W	http://IPADDRESS:554/jpg/image.jpg?size=3	No
+Axis        207W	http://IPADDRESS:554/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        207W	http://IPADDRESS/jpg/image.jpg	No
+Axis        207W	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        207W	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        207W	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        207W	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        209	http://IPADDRESS/axis-cgi/jpg/image.cgi?camera=1&resolution=320×240&compression=25	No
+Axis        209	http://IPADDRESS:554/mjpg/video.mjpg	No
+Axis        209 MFD	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        209fd	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        209fd	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        209fd	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        209FD	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        209FD	http://IPADDRESS/jpg/image.jpg	No
+Axis        209FD	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        209fd-r	http://IPADDRESS/jpg/image.jpg	No
+Axis        209mfd	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        209mfd	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        209MFD	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        209MFD	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        209MFD	http://IPADDRESS:554/axis-cgi/mjpg/video.cgi	No
+Axis        209MFD	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        210	http://IPADDRESS:554/jpg/image.jpg?size=3	No
+Axis        210	http://IPADDRESS//cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]	No
+Axis        210	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        210	http://IPADDRESS/jpg/image.jpg	No
+Axis        210	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        210	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        210	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        210	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        210	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        210	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        210	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        210	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        2100	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        2100	http://IPADDRESS/jpg/1/image.jpg	No
+Axis        2100	http://IPADDRESS/cgi-bin/jpg/image.cgi	No
+Axis        2100	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        2100	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        2100	http://IPADDRESS/cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT	No
+Axis        2100	http://IPADDRESS/axis-cgi/jpg/image.cgi?camera=1&resolution=320×240&compression=25	No
+Axis        2100	http://IPADDRESS/fullsize.jpg?camera=1	No
+Axis        2100	http://IPADDRESS/fullsize.jpg?camera=[CHANNEL]	No
+Axis        2100	http://IPADDRESS/jpg/image.jpg	No
+Axis        2100	http://IPADDRESS/cgi-bin/image640x480.jpg	No
+Axis        2100	http://IPADDRESS/cgi-bin/image320x240.jpg	No
+Axis        2100	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        2100	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        2100	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        2100	http://IPADDRESS/cgi-bin/fullsize.jpg?camera=[CHANNEL]&clock=on&motion=0	No
+Axis        2100	http://IPADDRESS/cgi-bin/hugesize.jpg?camera=[CHANNEL]&clock=on&motion=0	No
+Axis        2100	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        2100	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        2100	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        2100	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        2100	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        2100	http://IPADDRESS//control/faststream.jpg?stream=MxPEG&needlength&fps=6	Yes
+Axis        2100	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        2100	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        2100 H	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        210A	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        210A	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        210A	http://IPADDRESS/jpg/image.jpg	No
+Axis        210A	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        210A	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        210A	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        210A	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        211	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        211	http://IPADDRESS:554/jpg/image.jpg?size=3	No
+Axis        211	http://IPADDRESS/jpg/image.jpg	No
+Axis        211	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        211	http://IPADDRESS/cgi-bin/image640x480.jpg	No
+Axis        211	http://IPADDRESS/jpg/image.jpg	No
+Axis        211	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        211	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        211	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        211	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        211	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        211	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        211	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        211	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        211	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        211	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        211	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        211	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        211	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        2110	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        2110	http://IPADDRESS/axis-cgi/jpg/image.cgi?camera=1&resolution=320×240&compression=25	No
+Axis        2110	http://IPADDRESS/jpg/image.jpg	No
+Axis        2110	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        2110	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        2110	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        2110	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        2113	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        211a	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        211A	http://IPADDRESS/jpg/image.jpg	No
+Axis        211A	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        211-LSO	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        211m	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        211m	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        211m	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        211m	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        211M	http://IPADDRESS:554/axis-cgi/mjpg/video.cgi	No
+Axis        211M	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        211W	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        211W	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        212	http://IPADDRESS/jpg/image.jpg	No
+Axis        212	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        212 PTZ	http://IPADDRESS:554/jpg/image.jpg?size=3	No
+Axis        212 PTZ	http://IPADDRESS/axis-cgi/jpg/image.cgi?camera=1&resolution=320×240&compression=25	No
+Axis        212 PTZ	http://IPADDRESS/SnapshotJPEG?Resolution=320×240	No
+Axis        212 PTZ	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        212 PTZ	http://IPADDRESS/jpg/image.jpg	No
+Axis        212 PTZ	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        212 PTZ	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        212 PTZ	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        212 PTZ	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        212 PTZ	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        212 PTZ	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        212 PTZ	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        212 PTZ	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        2120	http://IPADDRESS:554/jpg/image.jpg?size=3	No
+Axis        2120	http://IPADDRESS/cgi-bin/jpg/image.cgi	No
+Axis        2120	http://IPADDRESS/jpg/image.jpg	No
+Axis        2120	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        2120	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        2120	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        2120	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        2120	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        2120	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        213	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        213 PTZ	http://IPADDRESS:554/jpg/image.jpg	No
+Axis        213 PTZ	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        213 PTZ	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        213 PTZ	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        2130	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        2130	http://IPADDRESS/jpg/image.jpg	No
+Axis        2130	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        2130	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        2130	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        2130 PTZ	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        2130R ptz	http://IPADDRESS/jpg/1/image.jpg	No
+Axis        2130R ptz	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        2130R ptz	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        2130R ptz	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        213ptz	http://IPADDRESS/jpg/image.jpg	No
+Axis        213ptz	http://IPADDRESS:554/mjpg/1/video.mjpg	No
+Axis        213ptz	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        213PTZ	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        213PTZ	http://IPADDRESS/axis-cgi/jpg/image.cgi?camera=1&resolution=320×240&compression=25	No
+Axis        213PTZ	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        213PTZ	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        213PTZ	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        214	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        214	http://IPADDRESS/jpg/image.jpg	No
+Axis        214	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        214ptz	http://IPADDRESS/axis-cgi/jpg/image.cgi?camera=1&resolution=320×240&compression=25	No
+Axis        214ptz	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        214ptz	http://IPADDRESS/jpg/image.jpg	No
+Axis        214ptz	http://IPADDRESS:554/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        214ptz	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        214ptz	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        214ptz	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        214ptz	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        215	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        215	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        215 PTZ	http://IPADDRESS/snapshot.cgi	No
+Axis        215 PTZ	http://IPADDRESS/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]	No
+Axis        215 PTZ	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        215 PTZ	http://IPADDRESS/axis-cgi/jpg/image.cgi?camera=1&resolution=320×240&compression=25	No
+Axis        215 PTZ	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        215 PTZ	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        215 PTZ	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        215 PTZ	http://IPADDRESS:554/axis-cgi/mjpg/video.cgi	No
+Axis        215 PTZ	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        215 PTZ	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        215ptz	http://IPADDRESS/jpg/image.jpg	No
+Axis        215PTZ	http://IPADDRESS/axis-cgi/jpg/image.cgi?camera=1&resolution=320×240&compression=25	No
+Axis        215PTZ	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        215PTZ	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        216 FD	http://IPADDRESS:554/jpg/image.jpg?size=3	No
+Axis        216 FD	http://IPADDRESS/SnapshotJPEG?Resolution=320×240	No
+Axis        216 FD	http://IPADDRESS/jpg/image.jpg	No
+Axis        216 FD	http://IPADDRESS/axis-cgi/jpg/image.cgi?camera=1&resolution=320×240&compression=25	No
+Axis        216 FD	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        216 MFD	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        216 MFD	http://IPADDRESS/jpg/image.jpg	No
+Axis        216 MFD	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        216 MFD	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        216 MFD	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        216FD	http://IPADDRESS:554/axis-cgi/mjpg/video.cgi	No
+Axis        216FD	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        221	http://IPADDRESS:554/jpg/image.jpg?size=3	No
+Axis        221	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        221	http://IPADDRESS/jpg/image.jpg	No
+Axis        221	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        221	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        221	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        221	http://IPADDRESS:554/mjpg/1/video.mjpg	No
+Axis        221	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        221	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        223m	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        223m	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        223M	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        223M	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        225	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        225 FD	http://IPADDRESS:554/axis-cgi/mjpg/video.cgi	No
+Axis        225fd	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        225fd	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        225FD	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        225FD	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        225FD	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        225FD	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        225FD	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        232D	http://IPADDRESS/jpg/image.jpg	No
+Axis        232D	http://IPADDRESS:554/mjpg/1/video.mjpg	No
+Axis        233D	http://IPADDRESS/jpg/image.jpg	No
+Axis        233D	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        240	http://IPADDRESS/fullsize.jpg?camera=1	No
+Axis        240	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        240	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        240	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        2400	http://IPADDRESS/cgi-bin/hugesize.jpg?camera=[CHANNEL]&clock=on	No
+Axis        2400	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        2400	http://IPADDRESS/jpg/image.jpg	No
+Axis        2400	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        2400	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        2400	http://IPADDRESS/cgi-bin/fullsize.jpg?camera=[CHANNEL]&clock=on&motion=0	No
+Axis        2400 Server Series	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        2400 Server Series	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        2400 Server Series	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        2400 Server Series	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        2400 SERVER SERIES	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        2400 SERVER SERIES	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        2400 SERVER SERIES	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        2401 Server Series	http://IPADDRESS/cgi-bin/hugesize.jpg?camera=[CHANNEL]&clock=on	No
+Axis        2401 Server Series	http://IPADDRESS/cgi-bin/halfsize.jpg?camera=[CHANNEL]&clock=on&motion=0	No
+Axis        2401 Server Series	http://IPADDRESS/cgi-bin/fullsize.jpg?camera=[CHANNEL]&clock=on&motion=0	No
+Axis        2401 Server Series	http://IPADDRESS/cgi-bin/hugesize.jpg?camera=[CHANNEL]&clock=on&motion=0	No
+Axis        2401 SERVER SERIES	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        2401 SERVER SERIES	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        2401 SERVER SERIES	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        2401+ Video Server	http://IPADDRESS/cgi-bin/image.jpg	No
+Axis        2401+ Video Server	http://IPADDRESS/jpg/image.jpg	No
+Axis        2401+ Video Server	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        2401+ Video Server	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        2401+ Video Server	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        2401+ VIDEO SERVER	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        240Q	http://IPADDRESS/jpg/1/image.jpg	No
+Axis        240Q	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        240Q	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        240Q	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        240Q	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        240Q	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        241Q	http://IPADDRESS/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0	Yes
+Axis        241Q	http://IPADDRESS/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]	Yes
+Axis        241Q	http://IPADDRESS/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]	Yes
+Axis        241Q	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        241Q	http://IPADDRESS/jpg/image.jpg	No
+Axis        241Q	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        241Q	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        241Q	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        241Q	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        241Q	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        241Q	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        241Q	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        241Q	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        241Q Video Server	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        241Q Video Server	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        241Q Video Server	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        241Q Video Server	http://IPADDRESS:554/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        241Q Video Server	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        241s	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        241s	http://IPADDRESS:554/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        241S	http://IPADDRESS/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]	Yes
+Axis        241S	http://IPADDRESS/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0	Yes
+Axis        241S	http://IPADDRESS/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]	No
+Axis        241S	http://IPADDRESS/jpg/image.jpg	No
+Axis        241S	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        241S	http://IPADDRESS/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]	No
+Axis        241S	http://IPADDRESS/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0	No
+Axis        241S	http://IPADDRESS/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0	No
+Axis        241S	http://IPADDRESS/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32	No
+Axis        241S	http://IPADDRESS/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]	No
+Axis        241S	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        241S	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        2420	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        243Q	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        3014	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        3024	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        3114	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        313	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        3204	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        3301	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        3301	http://IPADDRESS/jpg/image.jpg	No
+Axis        3344	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        361631	http://IPADDRESS/axis-cgi/jpg/image.cgi?camera=1&resolution=320×240&compression=25	No
+Axis        40	rtsp://IPADDRESS:8083//onvif-media/media.amp	Yes
+Axis        5014	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        5414E	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        5534-E	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        a11s	http://IPADDRESS/jpg/image.jpg	No
+Axis        A210	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        apsporting	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        Axis        http://IPADDRESS/jpg/image.jpg	No
+Axis        Axis        http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        Axis        http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        Axis        http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        Axis        http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        Axis        http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        Axis        rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        Axis        rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        Axis 207w	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        axis 225fd	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        Axis2120	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        Axis216FD	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        camer 4	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        camera 1	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        camera 2	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        camera 3	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        Camera Oprit	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        camera2	http://IPADDRESS/jpg/image.jpg	No
+Axis        CAU	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        Common	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        COMMON	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        DAOXANH	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        Garage Tor	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        Garten	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        Hex Grote C	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        Hof	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        ILS	http://IPADDRESS/stream.asf	Yes
+Axis        IP Camera	http://IPADDRESS/videostream.asf	Yes
+Axis        IP Camera	http://IPADDRESS/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]	No
+Axis        IP Camera	http://IPADDRESS/cgi/jpg/image.cgi	No
+Axis        IP Camera	http://IPADDRESS/jpg/image.jpg	No
+Axis        IP Camera	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        IP Camera	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        IP Camera	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        IP Camera	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        IP Camera	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        IP Camera	http://IPADDRESS/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2	No
+Axis        IP Camera	http://IPADDRESS/videostream.cgi?	No
+Axis        IP Camera	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        IP Camera	rtsp://IPADDRESS:554/live1.sdp	Yes
+Axis        IP CAMERA	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        IP CAMERA	http://IPADDRESS/MJPEG.CGI	No
+Axis        IP CAMERA	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        IP CAMERA	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        IP video server	http://IPADDRESS/jpg/image.jpg	No
+Axis        IP video server	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        IP VIDEO SERVER	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        IP VIDEO SERVER	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        IP VIDEO SERVER	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        Laube	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M 10 Network	http://IPADDRESS/jpg/image.jpg	No
+Axis        M1004-W	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        M1004-W	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        M1004-W	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        M1004-W	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M101	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        m1011	http://IPADDRESS:554/axis-cgi/mjpg/video.cgi	No
+Axis        m1011	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        M1011	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        M1011	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M1011	http://IPADDRESS:554/jpg/image.jpg	No
+Axis        M1011	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        M1011	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M1011	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        M1011	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        M1011	http://IPADDRESS:554/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M1011	rtsp://IPADDRESS:554/live1.sdp	Yes
+Axis        M1011	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        M1011	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        M1011W	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        M1011W	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        M1011-W	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        M1011-W	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M1011-W	http://IPADDRESS/jpg/image.jpg	No
+Axis        M1011-W	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        M1011-W	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        M1011-W	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        M1011-W	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M1011-W	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M1011-W	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        M1011-W	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        M1013	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        M1013	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M1013	http://IPADDRESS:554/jpg/image.jpg?size=3	No
+Axis        M1013	http://IPADDRESS/jpg/image.jpg	No
+Axis        M1013	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        M1013	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M1013	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        M1014	http://IPADDRESS/jpg/image.jpg	No
+Axis        M1014	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        M1014 Network	http://IPADDRESS/jpg/image.jpg	No
+Axis        M1014	http://IPADDRESS/jpg/image.jpg	No
+Axis        M1014	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M1025	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        M1031	http://IPADDRESS:554/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        m1031w	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        m1031w	http://IPADDRESS/jpg/image.jpg	No
+Axis        m1031w	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        m1031w	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        M1031W	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        M1031W	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        M1031W	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        M1031W	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        M1031-W	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        M1031-W	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M1031-W	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        M1031-W	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        M1031-W	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M1031-W	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        M1031-W	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        M1031-W	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        M1033	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        M1034	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        M1034	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        M1034-W	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        M1034-W	http://IPADDRESS:554/mjpg/video.mjpg	No
+Axis        M1034-W	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        M1034-W	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        M-1034W	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        M-1034W	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M-1034W	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        M-1034W	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        M-1034W	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        M1052	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        m1054	http://IPADDRESS/jpg/image.jpg	No
+Axis        M1054	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        M1054	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        M1054	http://IPADDRESS/jpg/1/image.jpg	No
+Axis        M1054	http://IPADDRESS/jpg/image.jpg	No
+Axis        M1054	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M1054	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        M1054	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        M1054	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        M1054	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        M1054	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        M1054	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        m1103	rtsp://IPADDRESS/axis-media/media.amp?videocodec=h264&resolution=640×480	Yes
+Axis        m1103	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        M1103	http://IPADDRESS/jpg/image.jpg	No
+Axis        M1103	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        M1103	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M1103	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        M1103	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        M1104	http://IPADDRESS:554/jpg/image.jpg?size=3	No
+Axis        M1104	http://IPADDRESS/jpg/image.jpg	No
+Axis        M1104	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        M1104	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        M1104	http://IPADDRESS:554/mjpg/video.mjpg	No
+Axis        m1113	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        m1113	http://IPADDRESS/jpg/image.jpg	No
+Axis        m1113	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        M1113	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M1113	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        M1113	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        M1114	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        M1114	http://IPADDRESS:554/jpg/image.jpg?size=3	No
+Axis        M1114	http://IPADDRESS/jpg/image.jpg	No
+Axis        M1114	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        M1114	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        M1114	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        M1114	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        M113	http://IPADDRESS:554/axis-cgi/mjpg/video.cgi	No
+Axis        M1144-L	http://IPADDRESS/jpg/image.jpg	No
+Axis        M1144-L	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        M1144-L	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        M1144-L	http://IPADDRESS:554/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M114N	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        M2014-E	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        M2014-E	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        M2014-E	http://IPADDRESS:554/mjpg/video.mjpg	No
+Axis        M3004	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        M3004	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M3004	http://IPADDRESS:554/jpg/image.jpg?size=3	No
+Axis        M3004	http://IPADDRESS/jpg/image.jpg	No
+Axis        M3004	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        M3004	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        M3004	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M3004	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M3004	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        M3004	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        M3004	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        m3004-v	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        M3004-V	http://IPADDRESS/jpg/1/image.jpg	No
+Axis        M3005	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        M3005	http://IPADDRESS/jpg/image.jpg	No
+Axis        M3005	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        M3005V	http://IPADDRESS:554/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M3005V	http://IPADDRESS:554/axis-cgi/mjpg/video.cgi	No
+Axis        M3005-V	http://IPADDRESS/jpg/image.jpg	No
+Axis        M3005-V	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        M3005-V	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        M3006	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        M3006-V	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        M3006-V	http://IPADDRESS/jpg/image.jpg	No
+Axis        M3006-V	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M3006-V	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        M3006-V	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        M3006-V	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        M3007	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        M3007	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        M3007	http://IPADDRESS/jpg/image.jpg	No
+Axis        M3007	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        M3007	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        M3007	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        M3007	http://IPADDRESS:554//axis-cgi/mjpg/video.cgi	Yes
+Axis        M3007	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        M3011	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M3011	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        M3011	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        m3014	http://IPADDRESS/jpg/image.jpg	No
+Axis        m3014	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        m3014	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        M3014	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        M3014	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M3014	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        m3024	http://IPADDRESS:554/jpg/image.jpg?size=3	No
+Axis        m3025ve	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        M3025-VE	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        M3025-VE	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        M3026	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        m3113-r	http://IPADDRESS:554/jpg/image.jpg?size=3	No
+Axis        M3113-VE	http://IPADDRESS:554/mjpg/video.mjpg	No
+Axis        M3113-VE	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        M3113-VE	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        m3114	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        m3114	http://IPADDRESS/jpg/1/image.jpg	No
+Axis        m3114	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M3114	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M3114	http://IPADDRESS/axis-cgi/jpg/image.cgi?camera=1&resolution=320×240&compression=25	No
+Axis        M3114	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M3114	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        M3114	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        M3114	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        M3114-E	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        M3114-E	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        M3114-VE	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M3114-VE	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        M3114-VE	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        M3114-VE	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        m3203	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        M3203	http://IPADDRESS/jpg/image.jpg	No
+Axis        M3203	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M3203	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        m3204	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M3204	http://IPADDRESS:554/jpg/image.jpg?size=3	No
+Axis        M3204	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        M3204	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        M3204	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M3204	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        M3304	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        M5013	http://IPADDRESS:554/jpg/image.jpg?size=3	No
+Axis        M5013	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M5014	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        M5014	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        M5014	http://IPADDRESS:554/jpg/image.jpg?size=3	No
+Axis        M5014	http://IPADDRESS/jpg/image.jpg	No
+Axis        M5014	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        M5014	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        M5014	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        M5014	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        M5014	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        M5014	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        M7001	http://IPADDRESS:554/jpg/image.jpg	No
+Axis        M7001	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        M7001	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        M7001	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        M7001	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        M7014	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        M7014	http://IPADDRESS/jpg/image.jpg	No
+Axis        M7014	http://IPADDRESS:554/mjpg/1/video.mjpg	No
+Axis        M7014	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        M7014	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        max	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        max	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        max	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        NMPHC	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        onvif	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        OQ6032-E	http://IPADDRESS/jpg/image.jpg	No
+Axis        OQ6032-E	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        OQ6032-E	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        OQ6032-E	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        Other	http://IPADDRESS/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]	Yes
+Axis        Other	http://IPADDRESS/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0	Yes
+Axis        Other	http://IPADDRESS:554/videostream.asf	Yes
+Axis        Other	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        Other	http://IPADDRESS/jpg/1/image.jpg	No
+Axis        Other	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        Other	http://IPADDRESS:554/cgi-bin/jpg/image.cgi	No
+Axis        Other	http://IPADDRESS:554/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        Other	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        Other	http://IPADDRESS/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]	No
+Axis        Other	http://IPADDRESS/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]	No
+Axis        Other	http://IPADDRESS/cgi-bin/viewer/video.jpg	No
+Axis        Other	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        Other	http://IPADDRESS/cgi-bin/guest/Video.cgi?media=JPEG	No
+Axis        Other	http://IPADDRESS/jpg/image.jpg	No
+Axis        Other	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        Other	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        Other	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        Other	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        Other	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        Other	http://IPADDRESS/video.cgi?resolution=VGA	No
+Axis        Other	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        Other	http://IPADDRESS/GetData.cgi?CH=2	No
+Axis        Other	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        Other	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        Other	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        Other	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        Other	http://IPADDRESS/MJPEG.CGI	No
+Axis        Other	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        Other	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        Other	http://IPADDRESS:554//axis-cgi/mjpg/video.cgi	Yes
+Axis        Other	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        Other	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        Other	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        Other	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        Other	rtsp://IPADDRESS:554/mpeg4cif	Yes
+Axis        Other	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        Other	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        P1204	http://IPADDRESS/jpg/image.jpg	No
+Axis        P1204	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        P1204	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        P1204	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        P1214	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        P1214	http://IPADDRESS/jpg/image.jpg	No
+Axis        P1214	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        P1214	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        P1214-E	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        P1311	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        P1311	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        p1320	http://IPADDRESS/jpg/image.jpg	No
+Axis        P1333	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        P1343	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        P1343	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        P1343	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        P1343	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        P1343	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        P1344	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        P1344	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        P1344	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        P1344	http://IPADDRESS/jpg/image.jpg	No
+Axis        P1344	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        P1344	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        P1344	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        P1344	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        P1344-E	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        P1346	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        P1346	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        P1346	http://IPADDRESS/jpg/image.jpg	No
+Axis        P1346	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        P1346	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        P1347E	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        P1347E	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        P1347E	http://IPADDRESS/jpg/image.jpg	No
+Axis        P1347-E	http://IPADDRESS/jpg/image.jpg	No
+Axis        p1353	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        P1353	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        P1354	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        P1354	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        P1355	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        P1355	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        P1355	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        p1357	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Possible
+Axis        P1357	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        P1357	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        p3203	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        p3301	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        p3301	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        p3301	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        p3301	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        P3301	http://IPADDRESS/jpg/image.jpg	No
+Axis        p3301m	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        p3304	http://IPADDRESS:554/jpg/image.jpg?size=3	No
+Axis        p3304	http://IPADDRESS/jpg/image.jpg	No
+Axis        p3304	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        p3304	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        P3304	http://IPADDRESS:554/jpg/1/image.jpg	No
+Axis        P3322-e	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        P3343	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        P3343	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        P3343	http://IPADDRESS/jpg/image.jpg	No
+Axis        P3343	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        P3343	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        P3344	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        P3344	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        P3344	http://IPADDRESS:554/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        P3344	http://IPADDRESS/axis-cgi/jpg/image.cgi?camera=1&resolution=320×240&compression=25	No
+Axis        P3344	http://IPADDRESS/jpg/image.jpg	No
+Axis        P3344	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        P3344	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        P3344	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        P3344	http://IPADDRESS:554/mjpg/video.mjpg	No
+Axis        P3344	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        P3344	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        P3344	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        P3344	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        P3346	http://IPADDRESS/jpg/1/image.jpg	No
+Axis        P3346	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        P3346	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        P3346	http://IPADDRESS:554/mjpg/1/video.mjpg	No
+Axis        P3346	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        P3346-VE	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        P3346-VE	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        P3353	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        P3354	http://IPADDRESS/jpg/1/image.jpg	No
+Axis        P3354	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        P3354	http://IPADDRESS:554/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        P3354	http://IPADDRESS/jpg/image.jpg	No
+Axis        P3354	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        P3363	http://IPADDRESS/jpg/image.jpg	No
+Axis        P3363	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        P3363	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        p3364 L	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        p3364 L	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        p3364 L	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        p3364 VE	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        p3364 VE	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        p3364 VE	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        P3364 VE	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        P3364-l	http://IPADDRESS/jpg/image.jpg	No
+Axis        p3364VE	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        p3364VE	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        P3367	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        P3367	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        P3367	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        P3367	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        P3367	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        P3367	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        P3367	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        p3384	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        P3384-VE	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        p33xx	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        p3904	http://IPADDRESS:554/axis-cgi/mjpg/video.cgi	No
+Axis        P5512	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        P5512	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        P5512	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        P5512	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        P5512-e	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        P5512-e	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        P5512-E	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        p5522-e	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        p5522-e	http://IPADDRESS/axis-cgi/jpg/image.cgi?camera=1&resolution=320×240&compression=25	No
+Axis        p5522-e	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        p5522-e	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        P5522-e	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        P5532-E	http://IPADDRESS/jpg/image.jpg	No
+Axis        P5532-E	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        P5532-E	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        p5534	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        p5534-e	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        p5534-e	http://IPADDRESS/axis-cgi/jpg/image.cgi?camera=1&resolution=320×240&compression=25	No
+Axis        p5534-e	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        p5534-e	http://IPADDRESS:554/mjpg/video.mjpg	No
+Axis        p5534-e	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        p5534-e	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        P5534-E	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        p5534-vlc	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        P7210	http://IPADDRESS/jpg/image.jpg	No
+Axis        P7214	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        P7214	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        P7214	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        p7216	http://IPADDRESS:554/jpg/image.jpg?size=3	No
+Axis        p7224	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        P8514	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        P8514	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        PE-1214E	http://IPADDRESS/jpg/image.jpg	No
+Axis        ptz 214	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        ptz 214	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        ptz214	http://IPADDRESS/axis-cgi/jpg/image.cgi?camera=1&resolution=320×240&compression=25	No
+Axis        Q1602	http://IPADDRESS/axis-cgi/jpg/image.cgi?camera=1&resolution=320×240&compression=25	No
+Axis        Q1602	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        Q1602	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        Q1604-E	http://IPADDRESS/axis-cgi/jpg/image.cgi?camera=1&resolution=320×240&compression=25	No
+Axis        Q1604-E	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        Q1604-E	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        Q1604-E	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        Q1614	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        Q1755	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        Q1755	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        Q1755	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        Q1756	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        Q1921	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        Q1922	http://IPADDRESS/jpg/image.jpg	No
+Axis        Q6032	http://IPADDRESS/jpg/image.jpg?size=3	No
+Axis        Q6032	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        Q6032	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        Q6032	http://IPADDRESS:554/axis-cgi/mjpg/video.cgi	No
+Axis        Q6032-E	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        Q6032-E	http://IPADDRESS:554/axis-cgi/mjpg/video.cgi	No
+Axis        Q6034	http://IPADDRESS/axis-cgi/jpg/image.cgi?camera=1&resolution=320×240&compression=25	No
+Axis        Q6034	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        Q6034	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        Q6035	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        Q6035	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        Q6035	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        Q6035e	http://IPADDRESS:554/mjpg/video.mjpg	No
+Axis        Q6035e	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        Q6035-E	http://IPADDRESS:554/axis-cgi/mjpg/video.cgi	No
+Axis        Q6035-E	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        Q6042-E	http://IPADDRESS/jpg/image.jpg	No
+Axis        Q6044	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        Q6230	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        Q7041	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        Q7401	rtsp://IPADDRESS//onvif-media/media.amp	Yes
+Axis        Q7401	http://IPADDRESS:554/jpg/image.jpg?size=3	No
+Axis        Q7401	http://IPADDRESS//axis-cgi/mjpg/video.cgi	Yes
+Axis        Q7401-36.20	http://IPADDRESS/jpg/image.jpg	No
+Axis        Q7404	http://IPADDRESS/mjpg/video.mjpg	No
+Axis        Q7404	http://IPADDRESS/axis-cgi/mjpg/video.cgi	No
+Axis        Q7404	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        Q7404	http://IPADDRESS/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]	No
+Axis        Q7404	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        Q7406	http://IPADDRESS:554/jpg/image.jpg?size=3	No
+Axis        RC4010	http://IPADDRESS/img/video.asf	Yes
+Axis        SetupVideoSource	http://IPADDRESS/jpg/image.jpg	No
+Axis        Terasse	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
+Axis        Web Cam	http://IPADDRESS/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        Web Cam	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]	No
+Axis        WEB CAM	rtsp://IPADDRESS:554/axis-media/media.amp	Yes
+Axis        WEB CAM	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        yes	rtsp://IPADDRESS:554/mpeg4/media.amp	Yes
+Axis        Yesco	http://IPADDRESS/mjpg/1/video.mjpg	No
+Axis        Zap	http://IPADDRESS/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]	No
