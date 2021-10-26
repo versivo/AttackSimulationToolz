@@ -1,0 +1,23 @@
+
+# OSInt with Shodan
+
+## query by IP or NETBLOCK (start from DNS info)
+
+net:8.8.8.8/25
+
+## filters TCP ports
+
+ssh port:22,3333                        // serach all device with SSH open on port 22 or 3333
+ssh port:22,3333 product:"Cisco SSH"    // same search only for Cisco device (for example)
+
+## filters org / product / version
+
+org:"ESA"
+org:"NASA"
+
+org:"ESA" product:"Apache Tomcat"
+org:"NASA" product:"Apache"
+
+org:"ESA" product:"Apache" version:"2.2.3"
+org:"NASA" product:"Apache" version:"2.4.6"
+
