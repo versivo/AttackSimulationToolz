@@ -16,8 +16,19 @@
     ;; ANSWER SECTION:
     versivo.it.		3600	IN	TXT	"v=spf1 include:_spf.protonmail.ch mx ~all"
 
+## Zone Transfer
+
+    ~$ dig versivo.it -t ns +short
+    ns1.logosdns.it.
+    ns2.logosdns.it.
+
+    ~$ dig axfr versivo.it ns1.logosdns.it
+    ; <<>> DiG 9.16.1-Ubuntu <<>> axfr versivo.it ns1.logosdns.it
+    ;; global options: +cmd
+    ; Transfer failed.
+    ; Transfer failed.
+
 ## Easy to use
 
     https://mxtoolbox.com/
     https://intodns.com
-    
