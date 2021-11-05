@@ -21,3 +21,7 @@ org:"NASA" product:"Apache"
 org:"ESA" product:"Apache" version:"2.2.3"
 org:"NASA" product:"Apache" version:"2.4.6"
 
+## filter reference
+
+https://beta.shodan.io/search/filters
+

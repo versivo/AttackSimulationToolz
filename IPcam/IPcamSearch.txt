@@ -1,0 +1,10 @@
+
+## Shodan search by product name
+
+product:"HIKVISION"
+product:"TP-link"
+product:"AXIS"
+
+## SE query
+
+inurl:"/axis-cgi/mjpg/video.cgi"
