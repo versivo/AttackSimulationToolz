@@ -7,9 +7,13 @@ OnionLink
     # https://darkweblink.com/deep-web-links/ 
 
 Hidden Wiki(s)
-    http://zqktlwiuavvvqqt4ybvgvi7tyo4hjl5xgfuvpdf6otjiycgwqbym2qad.onion/wiki/index.php/Main_Page
-    http://ieeppzy7cz254nz2iz7omykshnlap5ktjq3r7ujfpxagygaobpxfdbqd.onion/
+    # http://zqktlwiuavvvqqt4ybvgvi7tyo4hjl5xgfuvpdf6otjiycgwqbym2qad.onion/wiki/index.php/Main_Page
+    # http://ieeppzy7cz254nz2iz7omykshnlap5ktjq3r7ujfpxagygaobpxfdbqd.onion/
 
+Deep Web E-mail services
+    # https://temp-mail.org/
+    # http://hxuzjtocnzvv5g2rtg2bhwkcbupmk7rclb6lly3fo4tvqkk5oyrv3nid.onion/
+    # http://protonirockerxow.onion/
 
 Search Engine
 
