@@ -1,5 +1,7 @@
-# download and open your tor browser...
-    # https://www.torproject.org/download/
+How to start browsing
+    1. Download and open your tor browser from https://www.torproject.org/download/
+    2. Unpack the content in your Home or Toolz Directory
+    3. Launch the Tor Browser
 
 OnionLink
     # https://darkweblink.com/deep-web-links/ 
@@ -29,4 +31,3 @@ Directory
 
     # 0day
     # http://mxu7ronlnsgmqlt5sjsdedvmh6kdagdhsx3oqvu3vwhrz5eagq562oqd.onion/
-    
