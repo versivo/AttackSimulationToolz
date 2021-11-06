@@ -1,7 +1,5 @@
 # download and open your tor browser...
-
     # https://www.torproject.org/download/
-
 
 OnionLink
     # https://darkweblink.com/deep-web-links/ 
@@ -16,7 +14,6 @@ Deep Web E-mail services
     # http://protonirockerxow.onion/
 
 Search Engine
-
     # Torch
     # http://xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/cgi-bin/omega/omega
 
@@ -24,7 +21,6 @@ Search Engine
     # http://search7tdrcvri22rieiwgi5g46qnwsesvnubqav2xakhezv4hjzkkad.onion/
 
 Directory
-
     # TorLinks
     # http://5n4qdkw2wavc55peppyrelmb2rgsx7ohcb2tkxhub2gyfurxulfyd3id.onion/
 
@@ -33,3 +29,4 @@ Directory
 
     # 0day
     # http://mxu7ronlnsgmqlt5sjsdedvmh6kdagdhsx3oqvu3vwhrz5eagq562oqd.onion/
+    
