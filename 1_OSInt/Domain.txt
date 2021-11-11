@@ -1,0 +1,14 @@
+* Account Breach Search: https://services.blackkitetech.com/data-breach
+* Certificate Search: https://crt.sh/
+* Domain Big Data: https://domainbigdata.com/
+* Expired Domains: https://www.expireddomains.net/
+* Phishing Domain Detection: https://services.blackkitetech.com/phishing-domain-search
+* Security Trails: https://securitytrails.com/
+* SPF record: https://www.spf-record.com/
+* Whois History: https://whois-history.whoisxmlapi.com/
+* https://analyzeid.com/
+* https://host.io/
+* https://host.io/backlinks/
+* https://host.io/redirects/
+* https://www.apollo.io/
+* https://rocketreach.co/
