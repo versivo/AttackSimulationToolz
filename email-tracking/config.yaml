@@ -1,0 +1,12 @@
+smtp_use_relay: True
+smtp_relay_host: smtps.example.com
+smtp_relay_port: 587
+smtp_relay_starttls: True
+smtp_relay_username: me@example.com
+smtp_relay_password: password
+from: me@example.com
+destinations:
+  - you@example.com
+  - he@example.com
+  - she@example.com
+tracking: http://tracker.example.com/logo.png
